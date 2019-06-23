@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu_item {
+    display: inline-block;
+    margin: 70px 6% 100px 6%;   
+}
+
+.menu_link {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: "Playfair Display";
+    color: #626262;
+    text-transform: uppercase;
+}
+
+.menu_link:hover {
+    color: #03a9f4;
+}
+
+.subtitle {
+    margin: 30px 0 27px 0;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #b4ad9e;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.title {
+    margin-bottom: 32px;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    color: #626262;
+    line-height: 36px;
+}
+
+.card-description {
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "Playfair Display";
+    color: #626262;
+    line-height: 24px;
+    text-align: left;
+}
+
+.card {
+    display: inline-block;
+    margin: -4px;
+    width: 50%;
+    min-width: 470px;
+    vertical-align: top;
+}
+
+.card:nth-child(odd) {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.card:nth-child(even) {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+/* footer {
+    text-align: center;
+} */
+
+.control {
+    display: block;
+    margin: 0 auto;
+    background: transparent;
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+    width: 162px;
+    height: 58px;
+    font-size: 20px;
+    font-family: "Playfair Display";
+    color: #626262;
+    line-height: 1.2;
+  
+}
+
+.control:hover {
+    border-color: #03a9f4;   
+    color: #03a9f4;
+}
