@@ -56,10 +56,12 @@
   line-height: 32px;
   margin: 10px;
   color: #000; 
+  transition-duration: 0.3s;
 }
 
 .menu-link:hover {
   color: #1abc9c;
+  transition-duration: 0.3s;
 }
 
 .subtitle {  
@@ -84,74 +86,79 @@
   background: #1abc9c;
 }
 
-.product-list, .news-list {
-  list-style: none;
-}
+/* start products */
 
-.product-item {
-  display: block;
+.cart {
   float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
   width: 255px;
   height: 350px;
+  background: #e8effc;
+  margin-right: 30px;
+  margin-bottom: 30px;
   font-family: 'Roboto';
   font-weight: 900;
   font-size: 18px;
   line-height: 32px;
-}
-
-.product-item:nth-child(4n) {
-  margin-right: 0px;
-}
-
-.product-name, .product-price {
-  display: block;
-  height: 40px;
-
-}
-
-.product-image {
-  float: left;
-}
-
-.product-name {
-  float: left;
-  width: 200px;
-  padding-left: 15px;
   text-transform: uppercase;
-  background: #323232;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 900; 
-  line-height: 40px;
-}
-
-.product-price {
-  float: right;
-  width: 55px;
-  text-align: center;
-  background: #8c8c8c;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 900; 
-  line-height: 40px;
-}
-
-.product-item:hover {
   cursor: pointer;
 }
 
-.product-item:hover > .product-name {
+.cart:nth-child(4n+1) {
+  margin-right: 0px;
+}
+
+.last-line-cart {
+  margin-right: 0px;
+}
+
+.cart-img-wrp {
+  overflow: hidden;
+  height: 310px;
+  line-height: 310px;
+  text-align: center;
+}
+
+.cart-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cart-text-wrp {
+  height: 40px;
+  line-height: 40px;
+  background: #323232;
+  overflow: hidden;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.cart-title {
+  padding-left: 15px;
+}
+
+.cart-price {
+  float: right;
+  width: 55px;
+  background: #8c8c8c;
+  text-align: center;
+  transition-duration: 0.3s;
+}
+
+.cart:hover .cart-text-wrp {
   background: #1abc9c;
 }
 
-.product-item:hover > .product-price {
+.cart:hover .cart-price {
   background: #7fd9c7;
 }
 
+/* end products */
+
+.news-list {
+  list-style: none;
+}
+
 .news-item {
-  display: block;
   float: left;
   width: 350px;
   margin-right: 30px;
@@ -168,7 +175,7 @@
 .news-title {
   font-size: 18px;
   font-family: "Open Sans";
-  font-style: Samebold;
+  font-weight: 600;
   line-height: 26px;
   color: #555252;
 }
