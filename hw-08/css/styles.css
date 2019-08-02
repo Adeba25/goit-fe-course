@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 100%;
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
     padding: 0; 
   }
@@ -233,7 +233,7 @@ body {
 
 
   .container {
-      width: 768px;
+      max-width: 768px;
     }
 
   .banner-wrp {
@@ -320,10 +320,10 @@ body {
   }
 
 
-  @media (min-width: 1440px) {
+  @media (min-width: 940px) {
 
     .container {
-      width: 940px;
+      max-width: 940px;
     }
 
     .banner-wrp {
