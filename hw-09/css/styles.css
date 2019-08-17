@@ -88,17 +88,12 @@
      text-decoration: none;
  }
 
- .section-title, .article-title {
+.article-title {
     color: #333;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
   }
   
-  .section-title {
-    margin-top: 65px;
-    margin-bottom: 14px;
-    font-size: 22px;
-  }
   
   .article-wrapper {
     margin-bottom: 28px;
