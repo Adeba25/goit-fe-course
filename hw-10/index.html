@@ -15,7 +15,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="#" class="link logo__link"><img src="img/logo.png" alt="logo" class="logo__img"></a> 
-              <ul class="list menu__list">
+              <ul class="list menu__list menu">
                 <li class="menu__item menu__item--first">
                   <a href="#" class="link menu__link">about</a>
                 </li>
@@ -47,21 +47,21 @@
                 </li>
               </ul>
             </nav>
-            <div class="header__content">
-              <p class="subtitle header__subtitle">Creative Template</p>
-              <h1 class="title header__title">Welcome<br>to mogo</h1>
-              <button class="button header__button">learn more</button>
+            <div class="content--header">
+              <p class="subtitle subtitle--header">Creative Template</p>
+              <h1 class="title title--header">Welcome<br>to mogo</h1>
+              <button class="button button--header">learn more</button>
             </div>
           </div>
     </header>
     <main class="main">
       <section class="section container">
-        <p class="subtitle section__subtitle">We work with</p>
-        <h2 class="title section__title">Amazing Services</h2>
+        <p class="subtitle subtitle--section">We work with</p>
+        <h2 class="title title--section">Amazing Services</h2>
 
         <ul class="list list--flex services__list">
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#clock"></use>
                 </svg>
@@ -70,7 +70,7 @@
               <p class="descr services__article-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non velit exercitationem facilis?</p>
             </li>
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#graph"></use>
                 </svg>
@@ -79,7 +79,7 @@
               <p class="descr services__article-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique odio praesentium quam?</p>
             </li>
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#desktop"></use>
                 </svg>
@@ -88,7 +88,7 @@
               <p class="descr services__article-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius tenetur ipsa!</p>
             </li>
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#book"></use>
                 </svg>
@@ -97,7 +97,7 @@
               <p class="descr services__article-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore illum nulla commodi?</p>
             </li>
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#home"></use>
                 </svg>
@@ -106,7 +106,7 @@
               <p class="descr services__article-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias commodi labore nostrum.</p>
             </li>
             <li class="services__article">
-              <div class="services__article-icon">
+              <div class="services__article--icon">
                 <svg class="services__icon">
                   <use href="img/icons/section/section_sprite.svg#digital"></use>
                 </svg>
@@ -117,8 +117,8 @@
         </ul>
       </section>
       <section class="section container">
-        <p class="subtitle section__subtitle">Who we are</p>
-        <h2 class="title section__title">Meet our team</h2>
+        <p class="subtitle subtitle--section">Who we are</p>
+        <h2 class="title title--section">Meet our team</h2>
         <p class="descr section__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, animi voluptate minima laborum reiciendis vero deserunt alias officia adipisci quos et quis, blanditiis esse nisi sunt earum obcaecati. Laborum veniam iste quo ratione ea eaque.</p>
 
         <ul class="list list--flex team">
@@ -149,13 +149,20 @@
                   </a>
                 </div>
               </div>
+
+
+              <picture class="member__photo">
+                <source srcset="img/m_dix-optimized@2x.jpg" media="(min-resolution: 192dpi), (min-resolution: 2dppx)">
+                <source srcset="img/m_dix-optimized.jpg">
+                <img src="img/m_dix-optimized.jpg" alt="Matthew Dix">
+              </picture>
   
-              <img src="img/m_dix-optimized.jpg" class="member__photo" alt="Matthew Dix">
+
   
               <div class="team_underlay"></div>
             </div>
-            <h3 class="title team__member-name">Matthew Dix</h3>
-            <p class="descr team__member-position">Graphic Design</p>
+            <h3 class="title team__member--name">Matthew Dix</h3>
+            <p class="descr team__member--position">Graphic Design</p>
           </li>
           <li class="team__member">
             <div class="team__photo">
@@ -185,12 +192,17 @@
                 </div>
               </div>
   
-              <img src="img/c_campbell-optimized.jpg" class="member__photo" alt="Christopher Campbell">
+              <picture class="member__photo">
+                <source srcset="img/c_campbell-optimized@2x.jpg" media="(min-resolution: 192dpi), (min-resolution: 2dppx)">
+                <source srcset="img/c_campbell-optimized.jpg">
+                <img src="img/c_campbell-optimized.jpg" alt="Cristopher Campbell">
+              </picture>
+
   
               <div class="team_underlay"></div>
             </div>
-            <h3 class="title team__member-name">Christopher Campbell</h3>
-            <p class="descr team__member-position">Branding/UX design</p>
+            <h3 class="title team__member--name">Christopher Campbell</h3>
+            <p class="descr team__member--position">Branding/UX design</p>
           </li>
           <li class="team__member">
             <div class="team__photo">
@@ -219,25 +231,29 @@
                   </a>
                 </div>
               </div>
-  
-              <img src="img/m_fertig-optimized.jpg" class="member__photo" alt="Michael Fertig">
-  
+
+              <picture class="member__photo">
+                <source srcset="img/m_fertig-optimized.jpg@2x.jpg" media="(min-resolution: 192dpi), (min-resolution: 2dppx)">
+                <source srcset="img/m_fertig-optimized.jpg">
+                <img src="img/m_fertig-optimized.jpg" alt="Cristopher Campbell">
+              </picture>
+ 
               <div class="team_underlay"></div>
             </div>
-            <h3 class="title team__member-name">Michael Fertig</h3>
-            <p class="descr team__member-position">Developer</p>
+            <h3 class="title team__member--name">Michael Fertig</h3>
+            <p class="descr team__member--position">Developer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer container">
-      <p class="footer__copyrigts">
+      <p class="copyrigts--footer">
         &copy; 2016 MoGo free PSD template by
-        <a href="#" class="link footer__link">Laaqiq</a>
+        <a href="#" class="link link--footer">Laaqiq</a>
       </p>
   
-      <form action="#" class="footer__form">
-        <input type="email" placeholder="Your Email..." class="footer__input-email">
+      <form action="#" class="form--footer">
+        <input type="email" placeholder="Your Email..." class="input__email--footer">
         <input type="button" value="subscribe" class="button footer__button">
       </form>
     </footer>

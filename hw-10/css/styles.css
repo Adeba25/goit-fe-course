@@ -109,7 +109,7 @@
    }
  
  
-   .header__content {
+   .content--header {
      margin: 0 auto;
      text-align: center;
    }
@@ -128,14 +128,14 @@
      margin: 0 auto;
    }
  
-   .header__title {
+   .title--header {
      color: #fff;
      font-size: 150px;
      line-height: 0.95; 
      margin-bottom: 106px;
    }
  
-   .header__subtitle {
+   .subtitle--header {
      color: #fff;
      font-size: 72px;
      margin-bottom: 35px;
@@ -154,7 +154,7 @@
      outline: transparent;
    }
    
-   .header__button {
+   .button--header {
      border: 3px solid #fff;
      width: 160px;
      font-size: 14px;
@@ -162,7 +162,7 @@
      color: #fff;
    }
  
-   .header__button:hover {
+   .button--header:hover {
        border-color: #fce38a;
        color: #fce38a;
    }
@@ -175,13 +175,13 @@
      margin: 0 auto;
    }
  
-   .section__title {
+   .title--section {
      font-size: 30px;
      text-align: center; 
      margin-bottom: 44px;
    }
  
-   .section__subtitle {
+   .subtitle--section {
      font-size: 24px;
      text-align: center;
      margin-bottom: 14px;
@@ -213,7 +213,7 @@
      margin-bottom: 0;
    }
  
-   .services__article-icon {
+   .services__article--icon {
      position: absolute;
      display: block;
      content: "";
@@ -398,14 +398,14 @@
      fill: #fff;
    }
  
-   .team__member-name {  
+   .team__member--name {  
      margin-top: 28px;
      margin-bottom: 12px;
      font-size: 14px;
      text-align: center;
    }
  
-   .team__member-position {
+   .team__member--position {
      font-style: italic;
      font-weight: 300;
    }
@@ -425,12 +425,12 @@
      border-top: 1px solid #e5e5e5;
    }
  
-   .footer__copyrigts {
+   .copyrigts--footer {
      font-size: 14px;
      font-family: "Montserrat", sans-serif;
    }
  
-   .footer__link { 
+   .link--footer { 
      display: inline-block; 
      color: #95e1d3;
      -webkit-transition-property: color  0.2s  linear;
@@ -438,11 +438,11 @@
      transition-property: color  0.2s  linear; 
    }
    
-   .footer__link:hover {
+   .link--footer:hover {
      color: #f38181;
    }
  
-   .footer__form {
+   .form--footer {
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -454,7 +454,7 @@
              align-items: center;
    }
  
-   .footer__input-email { 
+   .input__email--footer { 
      -webkit-box-sizing: border-box; 
              box-sizing: border-box;
      padding-left: 12px;
@@ -465,46 +465,46 @@
      font-family: "Montserrat", sans-serif;
    }
  
-   .footer__input-email::-webkit-input-placeholder {
+   .input__email--footer::-webkit-input-placeholder {
      font-size: 15px;
      line-height: 24px;
      font-style: italic;
      color: #e7e7e7;
    }
  
-   .footer__input-email::-moz-placeholder {
+   .input__email--footer::-moz-placeholder {
      font-size: 15px;
      line-height: 24px;
      font-style: italic;
      color: #e7e7e7;
    }
  
-   .footer__input-email:-ms-input-placeholder {
+   .input__email--footer:-ms-input-placeholder {
      font-size: 15px;
      line-height: 24px;
      font-style: italic;
      color: #e7e7e7;
    }
  
-   .footer__input-email::-ms-input-placeholder {
+   .input__email--footer::-ms-input-placeholder {
      font-size: 15px;
      line-height: 24px;
      font-style: italic;
      color: #e7e7e7;
    }
  
-   .footer__input-email::placeholder {
+   .input__email--footer::placeholder {
      font-size: 15px;
      line-height: 24px;
      font-style: italic;
      color: #e7e7e7;
    }
    
-   .footer__input-email:focus {
+   .input__email--footer:focus {
      outline: transparent;
    }
    
-   .footer__button {
+   .button--footer {
      border: none;
      text-transform: uppercase;
      font-family: "Montserrat", sans-serif;
@@ -521,7 +521,7 @@
      transition-property: background-color  0.2s  linear;
    }
    
-   .footer__button:hover {
+   .button--footer:hover {
      background-color: #f38181;
      -webkit-transition-property: background-color  0.2s  linear;
      -o-transition-property: background-color  0.2s  linear;
