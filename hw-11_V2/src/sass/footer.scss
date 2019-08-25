@@ -1,0 +1,71 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    height: 62px;
+    border-top: 1px solid $color-footer-greyline;
+  }
+
+  .copyrigts--footer {
+    font-size: 14px;
+    font-family: $montserrat;
+  }
+
+  .link--footer { 
+    display: inline-block; 
+    color: $color-lightblue;
+    transition-property: color  0.2s  linear; 
+
+    &:hover {
+        color: $color-orange;
+      }
+  }
+  
+
+  .form--footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .input__email--footer { 
+    box-sizing: border-box;
+    padding-left: 12px;
+    width: 229px;
+    height: 40px;
+    border: 1px solid $color-footer-grey;
+    border-right: none;
+    font-family: $montserrat;
+
+    &::placeholder {
+        font-size: 15px;
+        line-height: 24px;
+        font-style: italic;
+        color: $color-footer-grey;
+      }
+    
+    &:focus {
+        outline: transparent;
+      }
+  }
+    
+  .button--footer {
+    border: none;
+    text-transform: uppercase;
+    font-family: $montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    background-color: $color-lightblue;
+    color: $color-white;;
+    cursor: pointer;
+    font-weight: bold;
+    transition-property: background-color  0.2s  linear;
+
+    &:hover {
+        background-color: $color-orange;
+        transition-property: background-color  0.2s  linear;
+      }
+  }
