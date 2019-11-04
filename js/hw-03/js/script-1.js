@@ -10,6 +10,6 @@ user.hobby = "javascript";
 user.premium = false;
 
 
-for (let i = 0; i < Object.keys(user).length; i++) {
-  console.log(`${Object.keys(user)[i]} : ${Object.values(user)[i]}`);
-}
+for (const key in user) {
+  console.log(`${key}: ${user[key]}`);
+};

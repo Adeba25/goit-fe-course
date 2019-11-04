@@ -1,10 +1,10 @@
 const countTotalSalary = function(employees) {
   let total = 0;
 
-  const arrEmployees = Object.entries(employees);
+  const arrEmployees = Object.values(employees);
 
-  for (let i = 0; i < arrEmployees.length; i++) {
-    total += arrEmployees[i][1];
+  for (const salary of arrEmployees) {
+    total += salary;
   }
 
   return total;

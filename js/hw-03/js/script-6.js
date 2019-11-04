@@ -1,3 +1,10 @@
+const productsSimilar = [
+  { name: "Радар", price: 1300, quantity: 1 },
+  { name: "Радар", price: 1300, quantity: 1 },
+  { name: "Радар", price: 1300, quantity: 1 },
+  { name: "Радар", price: 1300, quantity: 1 }
+];
+
 const products = [
   { name: "Радар", price: 1300, quantity: 4 },
   { name: "Сканер", price: 2700, quantity: 3 },
@@ -6,16 +13,20 @@ const products = [
 ];
 
 const calculateTotalPrice = function(arr, productName) {
-  let result;
+  let result = 0;
 
   for (const product of arr) {
     if (product.name === productName) {
-      result = product.price * product.quantity;
+      result += product.price * product.quantity;
     }
   }
 
   return result;
 };
+
+console.log(calculateTotalPrice(productsSimilar, "Радар")); // 5200
+
+console.log(calculateTotalPrice(productsSimilar, "Дроид")); // 0
 
 console.log(calculateTotalPrice(products, "Радар")); // 5200
 
