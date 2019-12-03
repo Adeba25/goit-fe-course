@@ -1,7 +1,8 @@
 #gallery {
-    list-style: none;
+
     display: flex;
-    overflow: overlay;
+    list-style: none;
+    overflow: scroll;
   }
 
   .image {
