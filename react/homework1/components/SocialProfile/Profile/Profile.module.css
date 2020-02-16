@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+.description {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 250px;
+  background-color: #fff;
+  padding-bottom: 20px;
+  border: 1px solid #d8e0ea;
+}
+
+.userAvatar {
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #122236;
+}
+
+.tag {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #768696;
+}
+
+.location {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #768696;
+}
